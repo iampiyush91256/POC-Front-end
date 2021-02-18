@@ -1,0 +1,520 @@
+@font-face {
+    font-family: "ProximaNova";
+    src: url("fonts/Mark Simonson - Proxima Nova Semibold-webfont.ttf") format("ttf");
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 70%;
+    color:darkblue;
+    text-decoration: none;
+}
+a:link{
+    color: darkblue;
+    text-decoration: none;
+}
+a:active{
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+        
+/*======= Header =======*/
+.headerbar{
+    background-color: white;
+    height: 80px;
+    font-family: "ProximaNova";
+}
+.headerbar .container, .row, .col-md-1, .col{
+    height: 80px;
+}
+.headerbar .container, .row, .col-md-1{
+    padding-left: 0;
+}
+.headerbar .container{
+    padding-left: 10px;
+}
+.headerbar .col-md-1 img{
+    height: 100%;
+    padding-left: 0;
+    float: left;
+}
+.headerbar .col{
+    float: right;
+    margin: 40px 20px 20px 20px;
+}
+.dot{
+    display: inline-block;
+    min-width: 4px;
+    font-size: 5px;
+    font-weight: 100;
+    line-height: 1;
+    color: red;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: red;
+    border-radius: 1px;
+}
+.headerbar .col img{
+    height: 20px;
+}
+.headerbar .col:hover{
+    opacity: 0.4;
+}
+
+
+/* ===================================Homw/accesories============================= */
+.hometab, 
+.hometab .container, 
+.hometab .container .row, 
+.hometab .col-md-4{
+    height: 90px;
+    background-color: #F6F7F8;
+    font-family: "ProximaNova";
+}
+.hometab .col-md-4{
+    padding-top: 35px;
+    font-size: 14px;
+}
+.hometab .col-md-4 span{
+    padding-left: 0;
+    display: inline-block;
+    color: #33A0FF;
+}
+.hometab .col-md-4 p{
+    display: inline-block;
+}
+
+
+
+/*======================================= Categories ======================================*/ 
+.categories{
+    font-family: "ProximaNova";
+    background-color: #F6F7F8;
+}
+.categories .container .row .col-md-4{
+    padding-right: 24px;
+}
+.categories .col-md-4 .col-md-12{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 24px;
+    font-family: "ProximaNova";
+    background-color: white;
+}
+.categories .col-md-4 .col-md-12 h1{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.categories .col-md-4 .col-md-12 h2{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+.categories .col-md-4 .col-md-12 h3{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: right;
+}
+.categories .form-control-1{
+    font-size: 16px;
+    margin-top: 70px;
+    background-color: white;
+    float: left;
+    display: block;
+}
+.categories .col-md-4 .col-md-12 p{
+    font-size: 16px;
+    padding-top: 75px;
+    padding-left: 70px;
+    text-align: center;
+    display: inline-block;
+}
+.categories .form-control-2{
+    font-size: 16px;
+    margin-top: 70px;
+    background-color: white;
+    float: right;
+    display: block;
+}
+.categories .col-md-4 ul{
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: white;
+    margin-bottom: 24px;
+}
+.categories .col-md-4 ul li{
+    padding-top: 20px;
+}
+.categories .col-md-4 ul li a{
+    font-size: 16px;
+}
+
+
+/*-------------------------COLOR---------------------------------*/
+.categories .col-md-4 .color{
+    margin-top: 24px;
+    padding-right: 0;
+}
+.categories .col-md-4 .color .align{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+* {
+	 box-sizing: border-box;
+}
+.color body {
+	 position: absolute;
+	 top: 35%;
+	 left: 35%;
+	 transform: translate(-35%, -35%);
+	 font-family: 'lato';
+	 color: #333;
+}
+.color input[type="radio"] {
+	 display: none;
+}
+.color input[type="radio"]:checked + label span {
+	 transform: scale(1.25);
+}
+.color input[type="radio"]:checked + label .red {
+	 border: 2px solid #711313;
+}
+.color input[type="radio"]:checked + label .orange {
+	 border: 2px solid #873a08;
+}
+.color input[type="radio"]:checked + label .yellow {
+	 border: 2px solid #816102;
+}
+.color input[type="radio"]:checked + label .olive {
+	 border: 2px solid #505a0b;
+}
+.color input[type="radio"]:checked + label .green {
+	 border: 2px solid #0e4e1d;
+}
+.color input[type="radio"]:checked + label .teal {
+	 border: 2px solid #003633;
+}
+.color label {
+	 display: inline-block;
+	 width: 20px;
+	 height: 20px;
+	 margin-right: 10px;
+	 cursor: pointer;
+}
+.color label:hover span {
+	 transform: scale(1.25);
+}
+.color label span {
+	 display: inline-block;
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 50%;
+     margin: 20px;
+	 transition: transform 0.2s ease-in-out;
+}
+.color label span.red {
+	 background: blue;
+}
+.color label span.orange {
+    margin-left: 40px;
+	 background: yellow;
+}
+.color label span.yellow {
+    margin-left: 60px;
+	 background: black;
+}
+.color label span.olive {
+    margin-left: 120px;
+	 background: pink;
+}
+.color label span.green {
+    margin-left: 40px;
+	 background: red;
+}
+.color label span.teal {
+    margin-left: 100px;
+	 background: grey;
+}
+
+
+/*-----------------------------BRAND---------------------------------------*/
+
+.categories .container .row .col-md-4 .brand{
+    margin-top: 24px;
+}
+.categories .container .row .col-md-4 .brand ul li{
+    font-size: 18px;
+}
+.categories .container .row .col-md-4 .brand ul li a{
+    font-size: 16px;
+}
+.categories .container .row .col-md-4 .brand ul li a span{
+    font-size: 16px;
+    float: right;
+}
+.categories .container .row .col-md-4 .more{
+    margin-top: 24px;
+}
+.categories .container .row .col-md-4 .more ul li{
+    font-size: 18px;
+    text-align: center;
+} 
+
+
+
+
+/*=========================Right Section from Carousel=========================*/
+.categories .col-md-8{
+    padding-left: 0;
+    padding-right: 0;
+}
+.categories .img-overlay{
+    padding-left: 0;
+    background-color: #2E90E5;
+    margin-bottom: 24px;
+}
+.categories .img-overlay .text{
+    padding:30px;
+    
+}
+
+.categories .img-overlay .text h1{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.categories .text p{
+    color: white;
+    line-height:1.75;
+    padding-bottom: 20px;
+}
+
+.categories .img-overlay .text h5{
+    font-size: 14px;
+    color: white;
+    text-decoration:underline;
+}
+
+.carousel-inner>.item>img {
+    width: auto;
+    height: 100%;
+    float: right;
+}
+
+.categories .col-md-8 input[type="radio"] {
+    margin: 0 3px 0 3px;
+}
+.categories .col-md-8 .dropbox{
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+.categories .col-md-8 .dropbox .dropdown{
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+.categories .dropbox .drop-btn{
+    margin-left: 0px;
+    background-color: #F6F7F8;
+}
+.categories .drop-btn .btn{
+    width: 100px;
+    text-align: left;
+    background-color: #F6F7F8;
+}
+.categories .drop-btn .caret{
+    float: right;
+    margin-top: 7px;
+}
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited {
+    color: #22262A;
+    margin-left: 20px;
+    font-size: 16px;
+    border: 1px;
+    border-color: #22262A;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+.btn-tour:hover {
+    opacity: 70%;
+}
+.btn-tour i {
+    font-size: 16px;
+    padding-left: 24px;
+    color: #22262A;
+}
+
+
+
+/*====================Beat headphone images===================*/
+.categories .container .row .col-md-8 .col-md-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+.categories .hdphone{
+    background-color: white;
+    display: inline-block;
+    width: 30.9%;
+    height: auto;
+}
+.categories .hdphone img{
+    margin-bottom: 30px;
+    margin-top: 24px;
+    width: auto;
+    margin-left: 45px;
+    max-height: 150px;
+}
+.mid-img{
+    margin: 0 24px 24px 24px;
+}
+.categories .hdphone .container{
+    height: 100%;
+    width: 100%;
+}
+.categories .hdphone .container .txt{
+    font-family: "ProximaNova";
+    text-align: center;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+.categories .hdphone .container .txt h1{
+    font-size: 16px;
+    color: red;
+    margin-bottom: 24px;
+}
+.categories .hdphone .container .txt del{
+    color: #C1C8CE;
+}
+.categories .hdphone .container .txt .checked{
+    color: orange;
+}
+
+/*============Star Rating==============*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.star-size{
+    font-size: 12px;
+}
+
+
+
+
+
+/*=================Page Number==================*/
+
+.categories .container .row .col-md-8 .num{
+    font-size: 16px;
+    text-align: center;
+    height: 57px;
+}
+
+.categories .container .row .col-md-8 .num a{
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.categories .container .row .col-md-8 .num a.active{
+    background-color: black;
+    color: white;
+}
+
+.categories .container .row .col-md-8 .num a:hover:not(.active) 
+{
+    background-color: gray;
+}
+
+.categories .container .row .col-md-8 .num a:checked{
+    background-color: black;
+}
+
+
+
+
+/*=============Footer==============*/
+footer{
+    padding-top: 200px;
+    background-color: #F6F7F8;
+}
+footer .col-md-4 .beepimg{
+    height: 80px;
+    width: auto;  
+}
+
+footer .col-md-4 h1{
+    
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+
+footer .col-md-4 p{
+    font-size: 12px;
+    padding: 20px;
+    
+}
+
+footer .col-md-4 h2{
+    font-size: 12px;
+    padding-top: 0;
+    padding-left: 20px;
+    
+}
+
+footer .col-md-4 .SSimg img{
+    padding: 20px;
+
+}
+
+.end{
+    background-color: #F6F7F8;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.end ul{
+    list-style-type: none;
+}
+
+.end ul li{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+
+.end p{
+    padding: 20px;
+    float: left;
+    color: #C1C8CE;
+}
+
